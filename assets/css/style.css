@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header style */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(15, 66, 9);
+}
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(219, 219, 193);
+    margin: 0;
+    text-shadow: 0 0 20px rgba(69, 102, 67, 0.5);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding:10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 20px rgba(69, 102, 67, 0.5);
+    color: rgb(219, 219, 193);
+}
+
+/* footer style */
+footer {
+    background: rgb(15, 66, 9);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    
+}
+footer h2 {
+    color:rgb(219, 219, 193);
+    font-size: 30px;
+    margin: 0;
+
+}
+footer ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    list-style: none;
+    color: rgb(219, 219, 193);
+}
+
+/* body section */
+
+.hero {
+    background-color:rgb(219, 219, 193);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.hero h2 {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(33, 51, 33)
+}
+.hero p {
+    font-size: 30px;
+    padding: 20px 35px 20px 35px;
+    color: rgb(33, 51, 33);
+}
+
+.projects {
+    background-color: rgb(219, 219, 193);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.projects h2 {
+    font-size: 40px;
+    margin: 0;
+    color: rgb(33, 51, 33)
+}
+.projects a {
+    font-size: 30px;
+    padding: 20px 35px 20px 35px;
+    color: rgb(33, 51, 33);
+}
