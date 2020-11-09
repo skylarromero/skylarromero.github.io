@@ -6,6 +6,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+a {text-decoration: none;}
 
 /* header style */
 header {
@@ -106,4 +107,11 @@ footer ul li {
     font-size: 30px;
     padding: 20px 35px 20px 35px;
     color: rgb(33, 51, 33);
+}
+.my-pic {
+    max-width: 30%;
+    max-height: 30%;
+}
+div .rb-pic {
+    border-radius: 50%;
 }
